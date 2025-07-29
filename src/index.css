@@ -8,35 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 13% 9%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 15% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 15% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 91% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 13% 16%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 13% 16%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 0 91% 45%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 20%;
+    --input: 220 13% 16%;
+    --ring: 0 91% 45%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Netflix-themed gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 91% 45%) 0%, hsl(0 65% 25%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(220 15% 12%) 0%, hsl(220 13% 16%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(0 91% 45%) 0%, hsl(15 91% 50%) 100%);
+    
+    /* Data visualization colors */
+    --chart-1: 0 91% 45%;
+    --chart-2: 15 91% 50%;
+    --chart-3: 210 40% 60%;
+    --chart-4: 120 60% 50%;
+    --chart-5: 45 93% 58%;
+
+    /* Shadows */
+    --shadow-glow: 0 0 30px hsl(0 91% 45% / 0.3);
+    --shadow-card: 0 10px 25px hsl(220 13% 5% / 0.5);
 
     --sidebar-background: 0 0% 98%;
 
